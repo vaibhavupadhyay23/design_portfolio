@@ -99,9 +99,57 @@ nav img{
  .nav2{
   visibility: hidden;
  }
+ .yt-music,
+.linkedin{
+  width: 100vw;
+}
+.yt-music-container,
+.linkedin-container{
+  margin-bottom: 8px;
+  transition: 2s;
+}
+.phonepe-image,
+.digilocker-image{
+  width: 80vw;
+  margin: 8px;
+}
+.ui-design-showcase{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.contact-logos{
+  display: flex;
+  justify-content: left;
+  padding-left: 10vw;
+}
+.contact-logos img{
+  width: 10vw;
+  margin: 16px;
 
 }
-
+.aboutme{
+  height: 50vh;
+  .aboutme-image{
+    visibility: hidden;
+  }
+  background-image: url("images/Frame-504.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.hero-element{
+  height: 50vh;
+  img{
+    visibility: hidden;
+  }
+  background-image: url("images/Frame-499.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+}
 .nav-elements{
   position: fixed;
   background-color: rgba(255, 255, 255, 0.10);
