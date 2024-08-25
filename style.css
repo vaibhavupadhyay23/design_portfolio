@@ -21,6 +21,9 @@ nav img{
   background-color: aliceblue;
   
 }
+.hero-element img{
+  margin-top: 8vh;
+}
 
 .hero-element img,
 .aboutme-image,
