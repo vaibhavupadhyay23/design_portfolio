@@ -11,6 +11,7 @@
     
 </head>
 <body>
+  <div class='cursor' id="cursor"></div>
   <div class="nav2" id="nav2">
     <div class="nav-elements">
       <a href="#nav2"><span>HOME</span></a>
@@ -47,5 +48,13 @@
   <div class="footer">
     <img src="images/Frame 501.png" alt="" class="footer-image">
   </div>
+  <script>
+    var cursor = document.getElementById("cursor");
+document.body.addEventListener("mousemove", function(e) {
+  cursor.style.left = e.clientX + "px",
+    cursor.style.top = e.clientY + "px";
+});
+
+  </script>
 </body>
 </html>
