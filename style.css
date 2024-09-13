@@ -218,8 +218,8 @@ background-color: transparent;
       padding-right: 1vw;
       text-align: center;
       font-family: "Protest Guerrilla", sans-serif;
-  font-weight: 400;
-  font-style: normal;
+      font-weight: 400;
+      font-style: normal;
 }
 
 .cursor {
@@ -237,7 +237,8 @@ background-color: transparent;
   width: 30px;
   transition: all 300ms ease-out;
 }
-.ibps-div-img{
+.ibps-div-img,
+.hero-div-img{
   width: 70vw;
   align-items: center;
 }
