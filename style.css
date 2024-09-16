@@ -62,23 +62,7 @@ nav img{
   margin-bottom: 16px;
   transition: 2s;
 }
-.yt-music-container:hover{
-  cursor: pointer;
-  .yt-music{
-    visibility: hidden;
-  }
-  background-image: url("images/hover-yt.png");
-  background-size:contain;
-}
 
-.linkedin-container:hover{
-  cursor: pointer;
-  .linkedin{
-    visibility: hidden;
-  }
-  background-image: url("images/hover-linkedin.png");
-  background-size:contain;
-}
 .ui-design-image{
   width: 90vw;
 }
