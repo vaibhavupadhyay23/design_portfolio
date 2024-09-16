@@ -226,15 +226,3 @@ background-color: transparent;
   width: 70vw;
   align-items: center;
 }
-.ibps-div{
-  transition: 2s;
-}
-
-.ibps-div:hover{
-  cursor: pointer;
-  .ibps-div-img{
-    visibility: hidden;
-  }
-  background-image: url("images/ibps-back.png");
-  background-size:contain;
-}
