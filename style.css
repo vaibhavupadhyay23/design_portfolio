@@ -3,7 +3,7 @@
   margin: 0;
   padding: 0;
   text-align: center;
-  background-color: black;
+  background-color: white;
   scroll-behavior: smooth;
 }
 body{
@@ -42,7 +42,7 @@ nav img{
   align-content: center;
 }
 .aboutme-image{
- width: 100vw; 
+ width: 80vw; 
 }
 
 .projects{
@@ -79,17 +79,29 @@ nav img{
 }
 .contact-logos{
   display: flex;
-  justify-content: left;
-  padding-left: 10vw;
+  flex-direction: column;
+  align-items:start;
+  padding-left: 17vw;
 }
 .contact-logos img{
-  width: 5vw;
+  width: 3vw;
   margin: 16px;
 
 }
+.contact-logos div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Protest Guerrilla", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  }
 
-
-
+.contact-logos div span{
+  font-family:sans-serif;
+  font-weight: bold;
+  font-style: normal;
+}
 
 
 
@@ -155,7 +167,7 @@ nav img{
 }
 .nav-elements{
   position: fixed;
-  background-color: rgba(255, 255, 255, 0.10);
+  background-color: rgb(255, 255, 255);
   color: white;
   width: 80vw;
   align-items: center;
@@ -171,6 +183,7 @@ nav img{
   padding-left:10px ;
   padding-right:10px;
   margin: 1vw;
+  color: black;
   font-size: 1.2vw;
   background-color: transparent;
   font-family: "Notable", sans-serif;
@@ -180,7 +193,7 @@ nav img{
   transition: 300ms;
 }
 .nav-elements span:hover{
-  border-bottom: 8px solid white;
+  border-bottom: 8px solid rgb(0, 0, 0);
 }
 .nav-elements a{
 
