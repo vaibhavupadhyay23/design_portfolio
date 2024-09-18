@@ -144,18 +144,8 @@ nav img{
   margin: 16px;
 
 }
-.aboutme{
-  height: 50vh;
-  .aboutme-image{
-    visibility: hidden;
-  }
-  background-image: url("images/Frame-504.png");
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
-}
 .hero-element{
-  height: 50vh;
+  width: 90vw;
   img{
     visibility: hidden;
   }
